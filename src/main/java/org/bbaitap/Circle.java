@@ -2,7 +2,6 @@ package org.bbaitap;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.io.IOException;
 
 public class Circle implements Calculator{
     private int radius;
@@ -22,6 +21,23 @@ public class Circle implements Calculator{
     public double areaCalulation() {
         // TODO Auto-generated method stub
         return radius*radius*Math.PI;
+    }
+
+
+    public static void ReadFileCSV(String file) {
+        try {
+            BufferedReader br = new BufferedReader(new FileReader("filecsv/hinhtron.csv"));
+            String dong;
+            while ((dong = br.readLine()) != null) {
+                double r = Double.parseDouble(dong);
+                double areaCircle = Math.PI * r * r;
+                System.out.println("areaCircle: " + areaCircle);
+            }
+
+            br.close();
+        } catch (Exception e) {
+            System.out.println("eror");
+        }
     }
 
 }
