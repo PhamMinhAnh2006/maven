@@ -1,5 +1,8 @@
 package org.bbaitap;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+
 public class Triangle implements Calculator{
     private int height;
     private int bottomlength;
@@ -22,6 +25,26 @@ public class Triangle implements Calculator{
         // TODO Auto-generated method stub
         return (height*bottomlength)/2;
     }
+    public static void ReadFileCSV(String file) {
+        try {
+            BufferedReader br = new BufferedReader(new FileReader("filecsv/tamgiac (1).csv"));
+            String dong;
+            while ((dong = br.readLine()) != null) {
+                String[] split = dong.split(",");
+
+                double h = Double.parseDouble(split[0]);
+                double b = Double.parseDouble(split[1]);
+
+                double area = (h * b) / 2;
+                System.out.println("area: " + area);
+            }
+
+            br.close();
+        } catch (Exception e) {
+            System.out.println("eror");
+        }
+        }
+    }
 
 
-}
+

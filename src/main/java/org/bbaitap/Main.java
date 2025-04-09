@@ -13,6 +13,8 @@ public class Main {
             System.out.println(hinhtamgiac.areaCalulation());
             System.out.println(hinhtron.areaCalulation());
 
+        Triangle.ReadFileCSV("filecsv/tamgiac (1).csv");
+
         }
 
 
