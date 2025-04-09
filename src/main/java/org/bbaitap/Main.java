@@ -13,9 +13,9 @@ public class Main {
             System.out.println(hinhtamgiac.areaCalulation());
             System.out.println(hinhtron.areaCalulation());
 
-        Triangle.ReadFileCSV("filecsv/tamgiac (1).csv");
-        Circle.ReadFileCSV("filecsv/hinhtron.csv");
-        Square.ReadFileCSV("filecsv/hinhvuong.csv");
+        Triangle.ReadFileCSV("filecsv/Triangle.csv");
+        Circle.ReadFileCSV("filecsv/Circle.csv");
+        Square.ReadFileCSV("filecsv/Square.csv");
 
         }
 

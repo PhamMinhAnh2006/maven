@@ -25,7 +25,7 @@ public class Square implements Calculator{
 
     public static void ReadFileCSV(String file) {
         try {
-            BufferedReader br = new BufferedReader(new FileReader("filecsv/hinhvuong.csv"));
+            BufferedReader br = new BufferedReader(new FileReader("filecsv/Square.csv"));
             String dong;
             while ((dong = br.readLine()) != null) {
                 double canh = Double.parseDouble(dong);

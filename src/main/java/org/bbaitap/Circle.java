@@ -26,7 +26,7 @@ public class Circle implements Calculator{
 
     public static void ReadFileCSV(String file) {
         try {
-            BufferedReader br = new BufferedReader(new FileReader("filecsv/hinhtron.csv"));
+            BufferedReader br = new BufferedReader(new FileReader("filecsv/Circle.csv"));
             String dong;
             while ((dong = br.readLine()) != null) {
                 double r = Double.parseDouble(dong);

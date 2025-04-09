@@ -27,7 +27,7 @@ public class Triangle implements Calculator{
     }
     public static void ReadFileCSV(String file) {
         try {
-            BufferedReader br = new BufferedReader(new FileReader("filecsv/tamgiac (1).csv"));
+            BufferedReader br = new BufferedReader(new FileReader("filecsv/Triangle.csv"));
             String dong;
             while ((dong = br.readLine()) != null) {
                 String[] split = dong.split(",");
