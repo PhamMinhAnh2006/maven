@@ -24,19 +24,19 @@ public class Circle implements Calculator{
     }
 
 
-    public static void ReadFileCSV(String file) {
+    public void ReadFileCSV() {
         try {
             BufferedReader br = new BufferedReader(new FileReader("filecsv/Circle.csv"));
-            String dong;
-            while ((dong = br.readLine()) != null) {
-                double r = Double.parseDouble(dong);
+            String line;
+            while ((line = br.readLine()) != null) {
+                double r = Double.parseDouble(line);
                 double areaCircle = Math.PI * r * r;
                 System.out.println("areaCircle: " + areaCircle);
             }
 
             br.close();
         } catch (Exception e) {
-            System.out.println("eror");
+            System.out.println("eror" + e.getMessage());
         }
     }
 

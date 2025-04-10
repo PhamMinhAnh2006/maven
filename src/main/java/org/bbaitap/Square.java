@@ -23,19 +23,19 @@ public class Square implements Calculator{
         return edge*edge;
     }
 
-    public static void ReadFileCSV(String file) {
+    public void ReadFileCSV() {
         try {
             BufferedReader br = new BufferedReader(new FileReader("filecsv/Square.csv"));
-            String dong;
-            while ((dong = br.readLine()) != null) {
-                double canh = Double.parseDouble(dong);
-                double areaSquare = canh * canh;
+            String line;
+            while ((line = br.readLine()) != null) {
+                double edge = Double.parseDouble(line);
+                double areaSquare = edge * edge;
                 System.out.println("areaSquare: " + areaSquare);
             }
 
             br.close();
         } catch (Exception e) {
-            System.out.println("eror");
+            System.out.println("eror"+ e.getMessage());
         }
     }
 

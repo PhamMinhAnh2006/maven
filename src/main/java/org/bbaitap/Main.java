@@ -5,17 +5,18 @@ package org.bbaitap;
 public class Main {
     public static void main(String[] args) {
 
-            Square hinhvuong = new Square(20);
-            Triangle hinhtamgiac = new Triangle(2, 4);
-            Circle hinhtron = new Circle(5);
+            Square Square1 = new Square(20);
+            Triangle Triangle1 = new Triangle(2, 4);
+            Circle Circle1 = new Circle(5);
 
-            System.out.println(hinhvuong.areaCalulation());
-            System.out.println(hinhtamgiac.areaCalulation());
-            System.out.println(hinhtron.areaCalulation());
+            System.out.println(Square1.areaCalulation());
+            System.out.println(Triangle1.areaCalulation());
+            System.out.println(Circle1.areaCalulation());
 
-        Triangle.ReadFileCSV("filecsv/Triangle.csv");
-        Circle.ReadFileCSV("filecsv/Circle.csv");
-        Square.ReadFileCSV("filecsv/Square.csv");
+        Triangle1.ReadFileCSV();
+        Square1.ReadFileCSV();
+        Circle1.ReadFileCSV();
+
 
         }
 

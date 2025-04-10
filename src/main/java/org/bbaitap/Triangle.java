@@ -25,12 +25,12 @@ public class Triangle implements Calculator{
         // TODO Auto-generated method stub
         return (height*bottomlength)/2;
     }
-    public static void ReadFileCSV(String file) {
+    public void ReadFileCSV() {
         try {
             BufferedReader br = new BufferedReader(new FileReader("filecsv/Triangle.csv"));
-            String dong;
-            while ((dong = br.readLine()) != null) {
-                String[] split = dong.split(",");
+            String line;
+            while ((line = br.readLine()) != null) {
+                String[] split = line.split(",");
 
                 double h = Double.parseDouble(split[0]);
                 double b = Double.parseDouble(split[1]);
@@ -41,10 +41,10 @@ public class Triangle implements Calculator{
 
             br.close();
         } catch (Exception e) {
-            System.out.println("eror");
-        }
+            System.out.println("eror"+ e.getMessage());
         }
     }
+}
 
 
 
