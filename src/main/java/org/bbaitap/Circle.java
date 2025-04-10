@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 
 public class Circle implements IAreaCalculable {
-    private int radius;
+    private double radius;
 
     public Circle(int radius) {
         super();

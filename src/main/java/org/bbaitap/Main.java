@@ -7,21 +7,21 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
-            Square Square1 = new Square(20);
-            Triangle Triangle1 = new Triangle(2, 4);
-            Circle Circle1 = new Circle(5);
+            Square square1 = new Square(20);
+            Triangle triangle1 = new Triangle(2, 4);
+            Circle circle1 = new Circle(5);
 
-            System.out.println(Square1.calculateArea());
-            System.out.println(Triangle1.calculateArea());
-            System.out.println(Circle1.calculateArea());
+            System.out.println(square1.calculateArea());
+            System.out.println(triangle1.calculateArea());
+            System.out.println(circle1.calculateArea());
 
-        Triangle1.ReadFileCSV();
-        Square1.ReadFileCSV();
-        Circle1.ReadFileCSV();
+        triangle1.ReadFileCSV();
+        square1.ReadFileCSV();
+        circle1.ReadFileCSV();
 
-        printCustomArea(Square1);
-        printCustomArea(Triangle1);
-        printCustomArea(Circle1);
+        printCustomArea(square1);
+        printCustomArea(triangle1);
+        printCustomArea(circle1);
 
         ArrayList<String> circleList = new ArrayList<>();
 
@@ -33,7 +33,7 @@ public class Main {
     public static void printCustomArea(IAreaCalculable shape) {
         System.out.println("Custom " + shape.calculateArea());
 
-        }
+    }
 
 
 
