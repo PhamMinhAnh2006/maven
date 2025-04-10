@@ -3,7 +3,7 @@ package org.bbaitap;
 import java.io.BufferedReader;
 import java.io.FileReader;
 
-public class Circle implements Calculator{
+public class Circle implements IAreaCalculable {
     private int radius;
 
     public Circle(int radius) {
@@ -14,11 +14,11 @@ public class Circle implements Calculator{
 
     @Override
     public String toString() {
-        return "dien tich hinh tron la; " + areaCalulation();
+        return "dien tich hinh tron la; " + calculateArea();
     }
 
 
-    public double areaCalulation() {
+    public double calculateArea() {
         // TODO Auto-generated method stub
         return radius*radius*Math.PI;
     }
