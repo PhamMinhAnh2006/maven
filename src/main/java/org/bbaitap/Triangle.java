@@ -3,22 +3,16 @@ package org.bbaitap;
 import java.io.BufferedReader;
 import java.io.FileReader;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.ToString;
+
+@AllArgsConstructor
+@Data
+@ToString
 public class Triangle implements IAreaCalculable {
     private double height;
     private double bottomLength;
-
-
-    public Triangle(int height, int bottomlength) {
-        super();
-        this.height = height;
-        this.bottomLength = bottomlength;
-    }
-
-
-    @Override
-    public String toString() {
-        return "dien tich hinh tam giac la" + calculateArea();
-    }
 
 
     public double calculateArea() {
