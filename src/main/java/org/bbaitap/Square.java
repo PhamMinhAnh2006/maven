@@ -12,11 +12,6 @@ import lombok.ToString;
 public class Square implements IAreaCalculable {
     private double edge;
 
-    public Square(int edge) {
-        super();
-        this.edge = edge;
-    }
-
 
     public double calculateArea() {
         // TODO Auto-generated method stub
