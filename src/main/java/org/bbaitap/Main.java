@@ -8,6 +8,7 @@ public class Main {
     public static void main(String[] args) {
         log.info("Program started.");
 
+ eature-add-functionv5
         Square Square1 = new Square(20);
         Triangle Triangle1 = new Triangle(2, 4);
         Circle Circle1 = new Circle(5);
@@ -31,9 +32,9 @@ public class Main {
             log.error("Error reading CSV files: {}", e.getMessage(), e);
         }
 
-        printCustomArea(Square1);
-        printCustomArea(Triangle1);
-        printCustomArea(Circle1);
+        printCustomArea(square1);
+        printCustomArea(triangle1);
+        printCustomArea(circle1);
 
         ArrayList<String> circleList = new ArrayList<>();
         log.warn("circleList is currently empty: {}", true);
@@ -42,7 +43,7 @@ public class Main {
     public static void printCustomArea(IAreaCalculable shape) {
         System.out.println("Custom " + shape.calculateArea());
 
-        }
+    }
 
 
 

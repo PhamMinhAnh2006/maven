@@ -6,11 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="df10bcdc-5a16-4744-8730-6aa28f7234f2" name="Changes" comment="initial git">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+feature-add-functionv5
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/bbaitap/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bbaitap/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/bbaitap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bbaitap/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bbaitap/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bbaitap/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bbaitap/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bbaitap/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+ feature-add-functionv5
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
@@ -66,6 +66,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
+
   }
 }</component>
   <component name="RecentsManager">

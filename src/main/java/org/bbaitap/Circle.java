@@ -12,7 +12,7 @@ import lombok.AllArgsConstructor;
 @Data
 
 public class Circle implements IAreaCalculable {
-    private int radius;
+    private double radius;
 
     public double calculateArea() {
         // TODO Auto-generated method stub
