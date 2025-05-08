@@ -2,20 +2,15 @@ package org.bbaitap;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.ToString;
 
+@AllArgsConstructor
+@Data
+@ToString
 public class Square implements IAreaCalculable {
     private double edge;
-
-    public Square(int edge) {
-        super();
-        this.edge = edge;
-    }
-
-
-    @Override
-    public String toString() {
-        return  "dien tich hinh vuong la:" + calculateArea();
-    }
 
 
     public double calculateArea() {

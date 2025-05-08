@@ -3,20 +3,16 @@ package org.bbaitap;
 import java.io.BufferedReader;
 import java.io.FileReader;
 
+import lombok.Data;
+import lombok.ToString;
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
+@ToString
+@Data
+
 public class Circle implements IAreaCalculable {
     private double radius;
-
-    public Circle(int radius) {
-        super();
-        this.radius = radius;
-    }
-
-
-    @Override
-    public String toString() {
-        return "dien tich hinh tron la; " + calculateArea();
-    }
-
 
     public double calculateArea() {
         // TODO Auto-generated method stub
