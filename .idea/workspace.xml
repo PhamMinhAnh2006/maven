@@ -6,14 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="df10bcdc-5a16-4744-8730-6aa28f7234f2" name="Changes" comment="initial git">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+feature-add-functionv6
       <change beforePath="$PROJECT_DIR$/filecsv/Circle.csv" beforeDir="false" afterPath="$PROJECT_DIR$/filecsv/Circle.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/filecsv/Square.csv" beforeDir="false" afterPath="$PROJECT_DIR$/filecsv/Square.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/filecsv/Triangle.csv" beforeDir="false" afterPath="$PROJECT_DIR$/filecsv/Triangle.csv" afterDir="false" />
+
+ main
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/bbaitap/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bbaitap/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/bbaitap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bbaitap/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bbaitap/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bbaitap/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bbaitap/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bbaitap/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +58,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+ feature-add-functionv6
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
@@ -69,6 +71,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.fileTypes"
+main
   }
 }]]></component>
   <component name="RecentsManager">

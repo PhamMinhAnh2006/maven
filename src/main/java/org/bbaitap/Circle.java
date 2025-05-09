@@ -16,7 +16,9 @@ import lombok.AllArgsConstructor;
 @ToString
 @Data
 public class Circle implements IAreaCalculable {
+ feature-add-functionv6
     @CsvBindByName(column = "radius")
+ main
     private double radius;
 
     public double calculateArea() {

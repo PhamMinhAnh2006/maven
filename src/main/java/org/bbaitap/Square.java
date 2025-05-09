@@ -20,10 +20,12 @@ public class Square implements IAreaCalculable {
     @CsvBindByName(column = "edge")
     private double edge;
 
+ feature-add-functionv6
     public Square() {
 
     }
 
+main
 
     public double calculateArea() {
         // TODO Auto-generated method stub
