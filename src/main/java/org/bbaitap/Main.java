@@ -37,6 +37,10 @@ public class Main {
 
         ArrayList<String> circleList = new ArrayList<>();
         log.warn("circleList is currently empty: {}", true);
+
+        Square.readFileCSV();
+        Circle.readFileCSV();
+        Triangle.readFileCSV();
     }
 
     public static void printCustomArea(IAreaCalculable shape) {
